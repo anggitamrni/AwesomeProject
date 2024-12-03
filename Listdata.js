@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faGraduationCap, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 const Listdata = () => {
-    const jsonUrl = 'http://192.168.33.25:3000/mahasiswa';
+    const jsonUrl = 'http://192.168.100.6:3000/mahasiswa';
     const [isLoading, setLoading] = useState(true);
     const [dataUser, setDataUser] = useState({});
     const [refresh, setRefresh] = useState(false);
@@ -32,7 +32,6 @@ const Listdata = () => {
             .catch((error) => console.error(error))
             .finally(() => setLoading(false));
     }
-
     function deleteData(id) {
         fetch(jsonUrl + '/' + id, {
             method: 'DELETE',
@@ -44,8 +43,6 @@ const Listdata = () => {
                 refreshPage();
             })
     }
-
-
     return (
         <SafeAreaView>
             {isLoading ? (
@@ -77,26 +74,20 @@ const Listdata = () => {
                                         </View>
                                     </View>
                                 </TouchableOpacity>
-
                                 <View style={styles.form}>
                                     <Button title="Hapus"
                                         onPress={() => Alert.alert('Hapus data', 'Yakin akan menghapus data ini?', [
                                             { text: 'Tidak', onPress: () => console.log('button tidak') },
-                                            { text: 'Ya', onPress: () => deleteData(item.id) },
-                                        ])}
-                                        color={'red'}
+                                            { text: 'Ya', onPress: () => deleteData(item.id) },])}
+                                        color={'#AA5486'}
                                     />
                                 </View>
-
-
                             </View>
                         )}
                     />
                 </View>
             )}
         </SafeAreaView>
-
-
     )
 }
 
@@ -123,7 +114,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         padding: 20,
         borderRadius: 10,
-        backgroundColor: 'white',
+        backgroundColor: '#FFE6E6',
         shadowColor: '#000',
         shadowOffset: {
             width: 1,

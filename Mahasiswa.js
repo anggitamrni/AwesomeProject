@@ -44,7 +44,7 @@ export default Mahasiswa
 const styles = StyleSheet.create({
     title: {
         paddingVertical: 12,
-        backgroundColor: '#333',
+        backgroundColor: '#789DBC',
         color: 'white',
         fontSize: 20,
         fontWeight: 'bold',
