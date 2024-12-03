@@ -5,8 +5,11 @@
 ![2](https://github.com/user-attachments/assets/0dfc8718-af57-4bdb-969b-24f350ee0159)
 ![WhatsApp Image 2024-11-16 at 21 19 52_5af40c44](https://github.com/user-attachments/assets/e389b13e-912a-4717-b154-83d33003d988)
 
-3. **Halaman Mahasiswa:**
-![3](https://github.com/user-attachments/assets/98b376fa-ddba-427a-9b21-ce902b178f03)
+3. **Halaman Tambah Mahasiswa:**
+![image](https://github.com/user-attachments/assets/ac9d7bd5-8c34-40c2-b5e8-083a77d3b96c)
 
-4. **Halaman Github:**
-![4](https://github.com/user-attachments/assets/6781d83e-3a20-4003-a70a-356c141d7410)
+4. **Halaman Mahasiswa:**
+![image](https://github.com/user-attachments/assets/43f8c7f7-d9c0-4526-949e-642620163e2c)
+
+5. **Halaman Edit Mahasiswa:**
+![image](https://github.com/user-attachments/assets/83fa03a8-72bf-439a-b364-bf4a840faa33)
